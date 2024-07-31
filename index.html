@@ -22,9 +22,9 @@
         </div>
         <ul class="navigation">
             <li> <a href="#banner" onclick="toggleMenu()">Home</a> </li>
-            <li> <a href="#about" onclick="toggleMenu()">About</a> </li>
             <li> <a href="#menu" onclick="toggleMenu()">Popular</a> </li>
-            <li> <a href="#expert" onclick="toggleMenu()">Explore</a> </li>
+            <li> <a href="#about" onclick="toggleMenu()">About</a> </li>
+            <li> <a href="#explore" onclick="toggleMenu()">Explore</a> </li>
         </ul>
     </header>
 
@@ -35,35 +35,6 @@
             <h2>World Travel</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique enim consequuntur <br> ducimus dolores, minima laboriosam earum repellendus dignissimos voluptatum <br> incidunt saepe iste quas odit ipsa ipsum cumque harum!</p>
             <a href="#" class="btn">Popular</a>
-        </div>
-    </section>
-
-    <!-- ==== SECTION ABOUT ==== -->
-    <section class="about" id="about">
-        <div class="row">
-            <div class="col50">
-                <h2 class="titleTxt"><span>A</span>bout Us</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac pulvinar nisl. Nam congue mattis nisi, et feugiat est semper sit amet. 
-                    Morbi vel augue dignissim, molestie metus quis, ultricies quam. Pellentesque semper sem at nibh iaculis convallis. Nunc facilisis massa ut enim vehicula egestas.
-                    Pellentesque lobortis magna id sollicitudin aliquam. Cras eu augue nec eros consequat tincidunt sed a ante. In tellus odio, facilisis sit amet arcu nec, facilisis
-                    feugiat orci. Nullam non risus purus. Sed faucibus, nisl non semper finibus, turpis turpis porttitor massa, euismod egestas turpis tellus at augue.
-                </p>
-                <p>
-                    Praesent ac augue in velit eleifend mattis. Vestibulum interdum, metus vitae luctus mollis, neque nibh porta enim, non maximus est nisl a tortor. 
-                    Proin a auctor libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin sed turpis gravida nulla pharetra porttitor
-                    non nec massa. Quisque vitae velit at magna efficitur iaculis id ut magna. Phasellus eu felis convallis, vestibulum elit et, blandit nisi. Suspendisse ornare
-                    aliquam tellus, non tristique ex vestibulum id. Sed ut consectetur ipsum, ullamcorper venenatis purus.
-                </p>
-
-                <a href="#" class="btn">Explore</a> 
-            </div>
-
-            <div class="col50">
-                <div class="imgBox">
-                    <img src="./assets/img/about-img.jpg">
-                </div>
-            </div>
         </div>
     </section>
 
@@ -158,7 +129,167 @@
             <a href="#" class="btn">View All</a>
         </div>
     </section>
+
+    <!-- ==== SECTION ABOUT ==== -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleTxt"><span>A</span>bout Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac pulvinar nisl. Nam congue mattis nisi, et feugiat est semper sit amet. 
+                    Morbi vel augue dignissim, molestie metus quis, ultricies quam. Pellentesque semper sem at nibh iaculis convallis. Nunc facilisis massa ut enim vehicula egestas.
+                    Pellentesque lobortis magna id sollicitudin aliquam. Cras eu augue nec eros consequat tincidunt sed a ante. In tellus odio, facilisis sit amet arcu nec, facilisis
+                    feugiat orci. Nullam non risus purus. Sed faucibus, nisl non semper finibus, turpis turpis porttitor massa, euismod egestas turpis tellus at augue.
+                </p>
+                <p>
+                    Praesent ac augue in velit eleifend mattis. Vestibulum interdum, metus vitae luctus mollis, neque nibh porta enim, non maximus est nisl a tortor. 
+                    Proin a auctor libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin sed turpis gravida nulla pharetra porttitor
+                    non nec massa. Quisque vitae velit at magna efficitur iaculis id ut magna. Phasellus eu felis convallis, vestibulum elit et, blandit nisi. Suspendisse ornare
+                    aliquam tellus, non tristique ex vestibulum id. Sed ut consectetur ipsum, ullamcorper venenatis purus.
+                </p>
+
+                <a href="#" class="btn">Explore</a> 
+            </div>
+
+            <div class="col50">
+                <div class="imgBox">
+                    <img src="./assets/img/about-img.jpg">
+                </div>
+            </div>
+        </div>
+    </section> 
     
+    <!-- ==== EXPLORE ==== -->
+    <section class="explore" id="explore">
+        <h2 class="titleTxt"><span>O</span>ur destinations</h2>
+        <div class="search-container">
+            <p>Choose a Continent:</p>
+            <select name="continents">
+                <option value="">Options</option>
+                <option value="">Europe</option>
+                <option value="">Africa</option>
+                <option value="">South America</option>
+                <option value="">North America</option>
+                <option value="">Central America</option>
+                <option value="">Asia</option>
+                <option value="">Oceania</option>
+              </select>
+            <input type="text" placeholder="Search.." name="search">
+            <a href="" class="btn"><img src="./assets/img/lupa.png" alt=""></a>
+        </div>
+
+        <div class="content">
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/japan.jpg">
+                </div>
+                <div class="text">
+                    <h3>Japan</h3>
+                    <p><img src="./assets/img/map.png"> Himeji Castle - Himeji</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/usa.jpg">
+                </div>
+                <div class="text">
+                    <h3>United States</h3>
+                    <p><img src="./assets/img/map.png"> Madison Avenue - New York</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/Spain.jpg">
+                </div>
+                <div class="text">
+                    <h3>Spain</h3>
+                    <p><img src="./assets/img/map.png"> Sant. Eulália Cathedral - Barcelona</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/suiça.jpg">
+                </div>
+                <div class="text">
+                    <h3>Switzerland</h3>
+                    <p><img src="./assets/img/map.png"> Lauterbrunnen - Berna</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/greece.jpg">
+                </div>
+                <div class="text">
+                    <h3>Greece</h3>
+                    <p><img src="./assets/img/map.png"> Oia Village - Santorini</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/brasil.jpg">
+                </div>
+                <div class="text">
+                    <h3>Brazil</h3>
+                    <p><img src="./assets/img/map.png"> Arraial do Cabo - Rio de Janeiro</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/cancun.jpg">
+                </div>
+                <div class="text">
+                    <h3>Mexico</h3>
+                    <p><img src="./assets/img/map.png"> Cancun Coast - Cancun</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/coreia.jpg">
+                </div>
+                <div class="text">
+                    <h3>South Korea</h3>
+                    <p><img src="./assets/img/map.png"> Fashion Street - Seoul</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/japan.jpg">
+                </div>
+                <div class="text">
+                    <h3>Japan</h3>
+                    <p><img src="./assets/img/map.png"> Himeji Castle - Himeji</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/usa.jpg">
+                </div>
+                <div class="text">
+                    <h3>United States</h3>
+                    <p><img src="./assets/img/map.png"> Madison Avenue - New York</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/Spain.jpg">
+                </div>
+                <div class="text">
+                    <h3>Spain</h3>
+                    <p><img src="./assets/img/map.png"> Sant. Eulália Cathedral - Barcelona</p>
+                </div>
+            </div>
+            <div class="box-ex">
+                <div class="imgBox">
+                    <img src="./assets/img/suiça.jpg">
+                </div>
+                <div class="text">
+                    <h3>Switzerland</h3>
+                    <p><img src="./assets/img/map.png"> Lauterbrunnen - Berna</p>
+                </div>
+            </div>
+        </div>
+        
+    </section> 
 
     <!-- ==== SECTION CONTACT ==== -->
     <section class="contact" id="contact">

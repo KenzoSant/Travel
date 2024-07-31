@@ -199,11 +199,14 @@ header.sticky li a{
     margin-bottom: 1rem;
 }
 
+.col50 .titleTxt{
+    margin-left: 2rem;
+}
+
 .titleTxt span{
     color: var(--second-color);
     font-weight: var(--font-semi-bold);
     font-size: 1.5em;
-    margin-left: 2rem;
 }
 
 .col50 p{
@@ -261,7 +264,7 @@ header.sticky li a{
     padding: 3rem 0 3rem 0;
 }
 
-.box {
+.box,.box-ex {
     flex: 0 0 auto;
     width: 310px;
     height: 450px;
@@ -274,7 +277,7 @@ header.sticky li a{
     justify-content: space-between;
 }   
 
-.box:hover {
+.box:hover,.box-ex:hover {
     transform: scale(1.08);
 }
 
@@ -337,10 +340,52 @@ header.sticky li a{
     border-radius: 10px;
 }
 
+/* ==== SECTION EXPLORE ==== */
+.explore .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.search-container {
+    display: flex; 
+    align-items: center; 
+}
 
+select{
+    padding: 4.5px;
+    border: 1px solid #ccc;
+    margin: 0 2rem 0 0.5rem;
+}
+
+.search-container .btn img{
+    width: 20px;
+    height: auto; 
+}
+
+.search-container .btn{
+    width: 20px;
+    padding: 6px 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 0;
+}
+
+.search-container input {
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    transition: .3s;
+}
+
+.search-container input:focus{
+    box-shadow: 0 0 0 0;
+    border: 1px solid var(--second-color); 
+    outline: 0;
+}
 
 /* ==== SECTION CONTACT ==== */
-
 .contact{
     display: flex;
     flex-direction: column;
@@ -509,23 +554,23 @@ header.sticky li a{
         margin-top: 20px;
     }
 
-    .menu .content {
-        margin-top: 20px;
+    .row .col50 .titleTxt {
+        margin-left: 0 ;
     }
 
-    .menu .content .box {
-        margin: 10px;
+    .col50 p{
+        margin-left: 0;
     }
 
-    .menu .content .box .imgBox {
-        height: 260px;
+    .col50 a{
+        margin: 2rem 0 0 0;
     }
 
     .title {
         text-align: center;
     }
 
-    .opinions .content .box {
+    .opinions .content .box,.box-ex {
         margin: 10px;
         padding: 20px;
     }
@@ -534,7 +579,7 @@ header.sticky li a{
         width: auto;
     }
 
-    .box{
+    .box,.box-ex{
         width: 290px;
     }
 
@@ -633,7 +678,7 @@ header.sticky li a{
         margin-top: 20px;
     }
 
-    .menu .content .box {
+    .menu .content .box,.box-ex {
         margin: 10px;
     }
 
@@ -650,7 +695,7 @@ header.sticky li a{
         padding: 20px;
     }
 
-    .box{
+    .box,.box-ex{
         margin: 35px;
     }
 
